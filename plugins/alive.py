@@ -33,14 +33,15 @@ async def _human_time_duration(seconds):
 @Client.on_message(command("start") & filters.private & ~filters.edited)
 async def start_(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/0b704229b3390d5414b25.jpg",
-        caption=f"""**I ᴀᴍ 𝙇𝙂𝙘𝙔・𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏
-ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [𝙇𝙂𝙘𝙔・𝘼𝙇𝙀𝙓](https://t.me/lgcyalex)**""",
+        photo=f"https://telegra.ph/file/310ea6985c86a1af0e2a4.jpg",
+        caption=f"""**I ᴀᴍ **8x**・𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏
+ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [🥀𓆩𝗩.⃝⃡𝗡𝗔𝗡𝗖𝗬‌‌‌‌ﮩ٨ـﮩﮩ٨ـ❤️2022 3:35]
+](https://t.me/Cobra8xop)**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        " ❰𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭❱ ", url=f"https://t.me/LGCY_OFFICIAL")
+                        " ❰𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭❱ ", url=f"https://t.me/Clan8Xofficial")
                 ]
                 
            ]
@@ -48,16 +49,16 @@ async def start_(client: Client, message: Message):
     )
     
     
-@Client.on_message(commandpro(["lgcy", "hi", "alex"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["lgcy", "hello", "alex"]) & filters.group & ~filters.edited)
 async def start(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/4d5384379e2dd34a7cf22.mp4",
+        photo=f"https://telegra.ph/file/18b1cb1077aafa2f6a0b5.jpg",
         caption=f"""Hi☺️""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                       " ❰𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭❱ ", url=f"https://t.me/LGCY_OFFICIAL")
+                       " ❰𝐆𝐫𝐨𝐮𝐩 𝐒𝐮𝐩𝐩𝐨𝐫𝐭❱ ", url=f"https://t.me/Clan8Xofficial")
                 ]
             ]
         ),
