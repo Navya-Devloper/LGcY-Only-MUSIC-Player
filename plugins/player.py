@@ -89,7 +89,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: LGcY • ALEX",
+        f"Powered By: NANCY",
         (255, 255, 255),
         font=font,
     )
@@ -290,7 +290,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**𝑷𝒍𝒂𝒚 𝑴𝒖𝒔𝒊𝒄 𝑳𝒆𝒔𝒔\n 𝑻𝒉𝒂𝒏 {DURATION_LIMIT} 💞 𝑴𝒊𝒏𝒖𝒕𝒆𝒔🤗...**"
+                f"**𝑷𝒍𝒂𝒚 𝑴𝒖𝒔𝒊𝒄 𝑳𝒆𝒔𝒔\n 𝑻𝒉𝒂𝒏 {DURATION_LIMIT}  𝑴𝒊𝒏𝒖𝒕𝒆𝒔🤗...**"
             )
             return
         requested_by = message.from_user.first_name
