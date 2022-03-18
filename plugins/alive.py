@@ -34,11 +34,7 @@ async def _human_time_duration(seconds):
 async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/310ea6985c86a1af0e2a4.jpg",
-        caption=f"""**I ᴀᴍ 8𝒙
-        
-        
-        
-        ・𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏
+        caption=f"""**I ᴀᴍ 8𝒙・𝙈𝙐𝙎𝙄𝘾 𝘽𝙊𝙏
 ʙᴏᴛ ʜᴀɴᴅʟᴇ ʙʏ [🥀𓆩𝗩.⃝⃡🇳𝗔𝗡𝗖𝗬‌‌‌‌ﮩ٨ـﮩﮩ٨ـ❤️](https://t.me/Cobra8xop)**""",
     reply_markup=InlineKeyboardMarkup(
             [
