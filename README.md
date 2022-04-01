@@ -14,7 +14,7 @@
 
 ### Deploy To Heroku
 
-[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Navya-developer/MUSIC-OP-HMM)
+[![Deploy+On+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Navya-Devloper/LGcY-Only-MUSIC-Player)
 
 
 
